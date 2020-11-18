@@ -1,0 +1,22 @@
+{
+  "name": "pizzeroni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "compile:sass": "node-sass SASS/main.scss CSS/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jake1995Young/Pizzeroni.git"
+  },
+  "author": "Jake Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jake1995Young/Pizzeroni/issues"
+  },
+  "homepage": "https://github.com/Jake1995Young/Pizzeroni#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
