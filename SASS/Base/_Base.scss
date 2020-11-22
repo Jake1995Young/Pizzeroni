@@ -1,0 +1,29 @@
+/*
+    Base Page for CSS which will give some standard style for the whole site
+*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    /*Allow for smooth scrolling from one section to another*/
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/*Fonts*/
+@font-face{
+    font-family: BaseFont;
+    src: url(/Fonts/BaseFont.ttf);
+}
+
+@font-face{
+    font-family: ChewyFont;
+    src: url(/Fonts/ChewyFont.ttf);
+}

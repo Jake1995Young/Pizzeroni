@@ -1,0 +1,13 @@
+/*
+    This is the main CSS file which will retrieve the other SCSS files and convert them into one CSS
+*/
+
+@import "Abstracts/Variables";
+
+@import "Base/Base";
+
+@import "Sections/MainPage";
+@import "Sections/AboutPage";
+@import "Sections/MenuPage";
+@import "Sections/CustomerPage";
+@import "Sections/ContactUsPage";
