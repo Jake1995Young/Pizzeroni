@@ -5,38 +5,54 @@
     <meta charset="UTF-8">
     <title>Pizzeroni</title>
 
+    <link rel="icon" href="Icons/ionicons-v2.0.1-master/png/512/pizza.png" alt="Pizza Icon">
+
+
+    <!--Links to icons frequently used and also the main CSS file-->
     <link rel="stylesheet" type="text/css" href="/CSS/index.css">
     <link rel="stylesheet" type="text/css" href="Icons/ionicons-v2.0.1-master/css/ionicons.min.css">
 </head>
 
 <body>
+    <!--This is the main section which has a lanscape image and some simple CSS features-->
     <section class="MainPage" id="MainPage">
         <h1 class="Title">Pizzeroni</h1>
         <img class="Image" src="/Images/Pizza.jpg" alt="Pizza">
         <p class="Slogan">Powerful Pepperoni on Perfect Pizza</p>
+
         <a class="ion-android-restaurant icon " alt="Next Icon" href="#AboutPage"></a>
     </section>
 
+    <!--This is the section where I give a brief introduction into the company-->
     <section class="AboutPage" id="AboutPage">
+        <!--Split the background into two vertical sections, one is an image, the other is a video on loop and is muted-->
         <img class="PizzaSign" src="/Images/Pizza_Sign.jpg" alt="Pizza Sign">
         <video class="BGVideo" src="/Clips/Pizza_Clip.mp4" autoplay muted loop>
             <source src="Clips/Pizza_Clip.mp4" type="video/mp4">
         </video>
+
         <div class="Container">
             <h1 class="Title">Proudly Pizzeroni</h1>
             <p class="Info">We are a small business, situated in the heart of the capital, who strives to provide the best quality pizza in the city.<br> Treat yourself to a proper slice of pepperoni, with pepperoni of course!
             </p>
         </div>
 
+        <!--This is a CSS button which uses a fork/knife icon and will be used for scrolling through pages-->
         <a class="ion-android-restaurant icon " alt="Next Icon" href="#MenuPage"></a>
     </section>
 
+    <!--This is the section where I have our three main pizza's on offer -->
     <section class="MenuPage" id="MenuPage">
         <img class="BackgroundImage1" src="/Images/Background_Image1.jpg" alt="Background Image 1">
         <img class="BackgroundImage2" src="/Images/Background_Image2.jpg" alt="Background Image 2">
+
+        <!--This container is holding the overall box with all the elements-->
         <div class="Container">
             <h1 class="Heading">Our Pizza's</h1>
+
+            <!--This container is used to hold the pizza signs, name, and info-->
             <div class="MenuContainer row">
+                <!--The span 1 of 3 allows the row to be split into three columns -->
                 <div class="PepperoniPizza col span-1-of-3 box">
                     <img src="/Images/Pepperoni_Pizza2.jpg" alt="Pepperoni Pizza" class="PepperoniPizza">
                     <h2 class="Title">Pepperoni Pizza</h2>
@@ -54,17 +70,43 @@
                 </div>
             </div>
         </div>
+
         <a class="ion-android-restaurant icon " alt="Next Icon" href="#CustomerPage"></a>
     </section>
 
+    <!--This section is dealing with some customer responses-->
     <section class="CustomerPage" id="CustomerPage">
 
-       <!-- <a class="ion-android-restaurant icon " alt="Next Icon" href="#ContactUsPage"></a>-->
+        <!--This container is holding the overall box with all the elements-->
+        <div class="Container">
+            <h1 class="Heading">What Our Customers Say</h1>
+
+            <!--This container is used to hold the pizza signs, name, and info-->
+            <div class="CustomerContainer row">
+                <!--The span 1 of 3 allows the row to be split into three columns -->
+                <div class="User1 col span-1-of-3 box">
+                    <img src="/Images/Jackson_Picture.jpg" alt="User 1 - Jackson Michaels" class="User1Image">
+                    <h2 class="Title">Jackson Michaels</h2>
+                    <p class="Info">Huge fan of the pizza, it's a staple food for whenever I'm in town after work. Definitely worth the trip!</p>
+                </div>
+                <div class="User2 col span-1-of-3 box">
+                    <img src="/Images/Adrienne_Picture.jpg" alt="User 2 - Adrienne Moroney" class="User2Image">
+                    <h2 class="Title">Adrienne Moroney</h2>
+                    <p class="Info">The Margherita is my favourite. A Simple classic which doesn't need no fuss, it's just perfect!</p>
+                </div>
+                <div class="User3 col span-1-of-3 box">
+                    <img src="/Images/Jo%C3%A3o_Picture.jpg" alt="User 3 - João Geiss" class="User3Image">
+                    <h2 class="Title">João Geiss</h2>
+                    <p class="Info">I'm a topping guy, I always get the pepperoni pizza with extra Jalapenos.<br>I can't live without spice!</p>
+                </div>
+            </div>
+        </div>
+        <a class="ion-android-restaurant icon " alt="Next Icon" href="#ContactUsPage"></a>
     </section>
 
     <section class="ContactUsPage" id="ContactUsPage">
 
-      <!--  <a class="ion-android-restaurant icon" alt="Next Icon" href="#MainPage"></a>-->
+        <!--  <a class="ion-android-restaurant icon" alt="Next Icon" href="#MainPage"></a>-->
     </section>
 </body>
 

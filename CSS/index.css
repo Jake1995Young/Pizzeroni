@@ -83,6 +83,12 @@ html {
 .col:first-child {
   margin-left: 0; }
 
+.box {
+  position: relative;
+  width: 33.33%;
+  height: 100%;
+  float: left; }
+
 /*Main Section*/
 .MainPage {
   position: relative;
@@ -102,9 +108,9 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    object-fit: fill;
     width: 80%;
-    height: 50%; }
+    height: 50%;
+    object-fit: fill; }
   .MainPage .Slogan {
     position: absolute;
     top: 87%;
@@ -233,11 +239,72 @@ html {
     color: #330800;
     text-align: center;
     font-weight: lighter; }
-  .MenuPage .box {
+
+/*Customer Page*/
+.CustomerPage {
+  position: relative;
+  height: 100vh;
+  background-image: url(/Images/Background_Image3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .CustomerPage .Container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 90%;
+    background-color: #f0efeb;
+    border-color: #780808;
+    border-style: solid;
+    border-width: 1%; }
+  .CustomerPage .Heading {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    width: 100%;
+    transform: translate(-50%, -5%);
+    font-family: "ChewyFont";
+    text-align-last: center;
+    font-size: 15vh;
+    font-weight: 100;
+    color: #330800; }
+  .CustomerPage .CustomerContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    width: 85%;
+    height: 60%;
+    display: flex; }
+  .CustomerPage img {
     position: relative;
-    width: 33.33%;
-    height: 100%;
-    float: left; }
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%; }
+  .CustomerPage .Title {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "BaseFont";
+    font-size: 2vh;
+    color: #330800;
+    text-align: center; }
+  .CustomerPage .Info {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "BaseFont";
+    font-size: 2vh;
+    color: #330800;
+    text-align: center;
+    font-weight: lighter; }
 
 /*Icon*/
 .icon {

@@ -19,9 +19,10 @@
 
     .Image {
         @include CenterFix;
-        object-fit: fill;
         width: 80%;
         height: 50%;
+
+        object-fit: fill;
     }
 
     .Slogan {
