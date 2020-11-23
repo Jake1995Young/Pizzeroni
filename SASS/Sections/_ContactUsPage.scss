@@ -22,9 +22,11 @@
         left: 50%;
         top: 5%;
         transform: translate(-50%, -5%);
+        width: 100%;
 
+        text-align: center;
         font-family: "ChewyFont";
-        font-size: 15vh;
+        font-size: 14vh;
         font-weight: 100;
         color: $Dark-Brown;
     }
@@ -67,9 +69,9 @@
         text-align: center;
         padding-bottom: 10%;
     }
-    
+
     /*Over writting the general icon css as the icon needs to be in a different position on this page*/
-    .Last-Icon{
+    .Last-Icon {
         top: 82%;
     }
 }
