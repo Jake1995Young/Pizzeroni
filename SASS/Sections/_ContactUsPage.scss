@@ -1,0 +1,75 @@
+/*Contact Us Page*/
+
+.ContactUsPage {
+    @include PageSize;
+
+    background-image: url(/Images/Background_Image4.jpg);
+
+
+    .Container {
+        position: relative;
+        width: 60%;
+        height: 70%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        background-color: $Cream;
+    }
+
+    .Title {
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        transform: translate(-50%, -5%);
+
+        font-family: "ChewyFont";
+        font-size: 15vh;
+        font-weight: 100;
+        color: $Dark-Brown;
+    }
+
+    .Details {
+        position: absolute;
+        display: grid;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        height: 60%;
+    }
+
+
+    .Heading {
+        position: relative;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+
+
+        text-align: center;
+        font-family: "BaseFont";
+        font-size: 4vh;
+        font-weight: 400;
+        color: $Dark-Brown;
+    }
+
+    .Info {
+        position: relative;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        font-family: "BaseFont";
+        font-size: 2vh;
+        font-weight: 400;
+        color: $Dark-Brown;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    
+    /*Over writting the general icon css as the icon needs to be in a different position on this page*/
+    .Last-Icon{
+        top: 82%;
+    }
+}
