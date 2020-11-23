@@ -1,0 +1,27 @@
+ /*Grid*/
+
+ .row {
+     zoom: 1;
+     /* For IE 6/7 (trigger hasLayout) */
+     max-width: 1140px;
+ }
+
+ .row:before,
+ .row:after {
+     content: "";
+     display: table;
+ }
+
+ .row:after {
+     clear: both;
+ }
+
+ .col {
+     display: block;
+     float: left;
+     margin-left: 5%;
+ }
+
+ .col:first-child {
+     margin-left: 0;
+ }

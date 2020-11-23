@@ -1,37 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Pizzeroni</title>
-    
-    <link rel="stylesheet" href="/CSS/index.css">
+
+    <link rel="stylesheet" type="text/css" href="/CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="Icons/ionicons-v2.0.1-master/css/ionicons.min.css">
 </head>
+
 <body>
-    <section class="MainPage">
+    <section class="MainPage" id="MainPage">
         <h1 class="Title">Pizzeroni</h1>
-        <img class="Image" src="/Images/Pepperoni_Pizza.jpg" alt="Pepperoni Pizza">
+        <img class="Image" src="/Images/Pizza.jpg" alt="Pizza">
         <p class="Slogan">Powerful Pepperoni on Perfect Pizza</p>
-        
+        <a class="ion-android-restaurant icon " alt="Next Icon" href="#AboutPage"></a>
     </section>
-    
-    <section class="AboutPage">
-        
-        
+
+    <section class="AboutPage" id="AboutPage">
+        <img class="PizzaSign" src="/Images/Pizza_Sign.jpg" alt="Pizza Sign">
+        <video class="BGVideo" src="/Clips/Pizza_Clip.mp4" autoplay muted loop>
+            <source src="Clips/Pizza_Clip.mp4" type="video/mp4">
+        </video>
+        <div class="Container">
+            <h1 class="Title">Proudly Pizzeroni</h1>
+            <p class="Info">We are a small business, situated in the heart of the capital, who strives to provide the best quality pizza in the city.<br> Treat yourself to a proper slice of pepperoni, with pepperoni of course!
+            </p>
+        </div>
+
+        <a class="ion-android-restaurant icon " alt="Next Icon" href="#MenuPage"></a>
     </section>
-    
-    <section class="MenuPage">
-        
-        
+
+    <section class="MenuPage" id="MenuPage">
+        <img class="BackgroundImage1" src="/Images/Background_Image1.jpg" alt="Background Image 1">
+        <img class="BackgroundImage2" src="/Images/Background_Image2.jpg" alt="Background Image 2">
+        <div class="Container">
+            <h1 class="Heading">Our Pizza's</h1>
+            <div class="MenuContainer row">
+                <div class="PepperoniPizza col span-1-of-3 box">
+                    <img src="/Images/Pepperoni_Pizza2.jpg" alt="Pepperoni Pizza" class="PepperoniPizza">
+                    <h2 class="Title">Pepperoni Pizza</h2>
+                    <p class="Info">Tomato based pizza, topped with handfuls of locally sourced pepperoni</p>
+                </div>
+                <div class="TrufflePizza col span-1-of-3 box">
+                    <img src="/Images/Truffle_Pizza.png" alt="Truffle Pizza" class="TrufflePizza">
+                    <h2 class="Title">Truffle Pizza</h2>
+                    <p class="Info">Tomato based pizza, topped with generous servings of black truffle</p>
+                </div>
+                <div class="Margherita col span-1-of-3 Pizza box">
+                    <img src="/Images/Margherita_Pizza.jpg" alt="Margherita Pizza" class="MargheritaPizza">
+                    <h2 class="Title">Margherita Pizza</h2>
+                    <p class="Info">Tomato based pizza, topped with mountainous pieces of mozzarella/p>
+                </div>
+            </div>
+        </div>
+        <a class="ion-android-restaurant icon " alt="Next Icon" href="#CustomerPage"></a>
     </section>
-    
-    <section class="CustomerPage">
-        
-        
+
+    <section class="CustomerPage" id="CustomerPage">
+
+       <!-- <a class="ion-android-restaurant icon " alt="Next Icon" href="#ContactUsPage"></a>-->
     </section>
-    
-    <section class="ContactUsPage">
-        
-        
+
+    <section class="ContactUsPage" id="ContactUsPage">
+
+      <!--  <a class="ion-android-restaurant icon" alt="Next Icon" href="#MainPage"></a>-->
     </section>
 </body>
+
 </html>

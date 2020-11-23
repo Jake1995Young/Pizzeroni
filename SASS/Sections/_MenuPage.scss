@@ -1,0 +1,105 @@
+/*Menu Page*/
+
+.MenuPage {
+    /*Using the auto created terms*/
+    @include PageSize;
+
+    .BackgroundImage1{
+        position: relative;
+        height: 100vh;
+        width: 50%;
+        top: 50%;
+        left: 25%;
+    }
+    
+    .BackgroundImage2{
+        position: relative;
+        height: 100vh;
+        width: 50%;
+        top: -50.2%;
+        left: 75%;
+    }
+    
+    .Container {
+        @include CenterFix;
+
+        width: 95%;
+        height: 90%;
+
+        background-color: $Cream;
+        border-color: $Red-Brown;
+        border-style: solid;
+        border-width: 1%;
+    }
+
+    .Heading {
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        transform: translate(-50%, -5%);
+
+        font-family: "ChewyFont";
+        font-size: 15vh;
+        font-weight: 100;
+        color: $Dark-Brown;
+    }
+
+    .MenuContainer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -35%);
+        width: 85%;
+        height: 60%;
+        
+        display: flex;
+    }
+
+    img {
+        position: relative;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 30%;
+    }
+    
+    .Title{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        font-family: "BaseFont";
+        font-size: 2vh;
+        color: $Dark-Brown;
+        text-align: center;
+    }
+    
+    .Info{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        
+        text-align: center;
+        font-family: "BaseFont";
+        font-size: 2vh;
+        color: $Dark-Brown;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .box {
+        position: relative;
+        width: 33.33%;
+        height: 100%;
+        
+        float: left;
+    }
+
+    
+
+
+}

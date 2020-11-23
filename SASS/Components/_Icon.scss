@@ -1,0 +1,14 @@
+/*Icon*/
+
+.icon {
+        position: absolute;
+        top: 92%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+
+        font-size: 5vh;
+        color: $Pink-Red;
+
+        -webkit-animation: pulsate-bck 1.3s ease-in-out infinite both;
+        animation: pulsate-bck 1.3s ease-in-out infinite both;
+    }

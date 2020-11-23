@@ -3,11 +3,16 @@
 */
 
 @import "Abstracts/Variables";
+@import "Abstracts/Animations";
+@import "Abstracts/Mixins";
 
 @import "Base/Base";
+@import "Base/Grid";
 
 @import "Sections/MainPage";
 @import "Sections/AboutPage";
 @import "Sections/MenuPage";
 @import "Sections/CustomerPage";
 @import "Sections/ContactUsPage";
+
+@import "Components/Icon";

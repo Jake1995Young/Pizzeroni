@@ -1,0 +1,57 @@
+/*About Page*/
+
+.AboutPage {
+
+    @include PageSize;
+
+    .PizzaSign{
+        position: absolute;
+        height: 100vh;
+        width: 50%;
+        top: 0%;
+        left: 0%;
+    }
+    
+    .BGVideo{
+        position: absolute;
+        width: 50%;
+        left: 50%;
+        height: 100vh;
+        object-fit: fill;
+    }
+    
+    .Container{
+        @include CenterFix;
+        width: 50%;
+        height: 30%;
+        background-color: $Cream;
+    }
+    
+    .Title {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -30%);
+        width: 100%;
+        
+        font-family: "ChewyFont";
+        font-size: 10vh;
+        font-weight: 100;
+        color: $Dark-Brown;
+        text-align: center;
+    }
+
+    .Info {
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -40%);
+        width: 80%;
+        
+        
+        font-family: "BaseFont";
+        font-size: 2vh;
+        color: $Dark-Brown;
+        text-align: center;
+    }
+}

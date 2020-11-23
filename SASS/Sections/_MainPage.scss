@@ -1,42 +1,37 @@
 /*Main Section*/
 
-.MainPage{
-    position: relative;
-    height: 100vh;
-    
-    background-image: linear-gradient(90deg, $Cream-Brown 50%, #fff 50%);
-    
-    .Title{
+.MainPage {
+    @include PageSize;
+
+    background-image: linear-gradient(90deg, $Cream-Brown 50%, $Cream 50%);
+
+    .Title {
         position: absolute;
         left: 50%;
         top: 5%;
         transform: translate(-50%, -5%);
-        
+
         font-family: "ChewyFont";
         font-size: 15vh;
         font-weight: 100;
         color: $Dark-Brown;
     }
-    
-    .Image{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+
+    .Image {
+        @include CenterFix;
         object-fit: fill;
         width: 80%;
-        height: 50%; 
+        height: 50%;
     }
-    
-    .Slogan{
+
+    .Slogan {
         position: absolute;
         top: 87%;
         left: 50%;
         transform: translate(-50%, -50%);
-        
+
         font-family: "BaseFont";
         font-size: 4vh;
         color: $Dark-Brown;
     }
-    
 }
